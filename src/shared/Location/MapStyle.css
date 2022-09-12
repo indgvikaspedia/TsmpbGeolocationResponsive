@@ -1,0 +1,26 @@
+/* .circle {
+  background: #d83b01;
+  border-radius: 50%;
+  color: #fff;
+  height: 2.7em;
+  position: relative;
+  width: 2.7em;
+
+  border: 1px solid transparent;
+} */
+.red-color{
+    color:darkred;
+  }
+  
+  .circleText {
+    text-align: center;
+    height: 50%;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+  }
+  
+  
+  

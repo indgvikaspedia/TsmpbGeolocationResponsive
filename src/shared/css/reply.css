@@ -1,0 +1,301 @@
+@import url("./global.css");
+
+
+.email{
+    /* width: 41px;
+    height: 39px;
+    background: url(./../images/echarak_helpline_sprite05_v1.png) -1344px -239px;
+    position: absolute; */
+    /* top: 43px; */
+    /* top: 65px; */
+    color: orange;
+    font-size: 19px;
+}
+.userqa{
+    color: #ef8019;
+    font-size: 20px;
+}
+.qTime{
+    float: right;
+    color: #939393;
+    font-size: 14px;
+}
+.search{
+    width: 41px;
+    height: 23px;
+    background: var(--imageURL_sprite05_v1) -205px -354px;
+}
+.searchBorder {
+    border: 1px solid #28a745;
+}
+.assign{
+    width: 41px;
+    height: 45px;
+    background: var(--imageURL_spritev8) -1452px -200px;
+    position: absolute;
+    top: 62px;
+    left: 30px;
+}
+.deassign{
+    width: 41px;
+    height: 42px;
+    background: var(--imageURL_spritev8) -1452px -130px;
+    position: absolute;
+    top: 62px;
+    left: 30px;
+}
+.reAssign{
+    width: 41px;
+    height: 45px;
+    background: var(--imageURL_spritev8) -1452px -200px;
+    position: absolute;
+    top: 62px;
+    left: 30px;
+}
+.dreAssign{
+    width: 41px;
+    height: 42px;
+    background: var(--imageURL_spritev8) -1452px -130px;
+    position: absolute;
+    top: 62px;
+    left: 30px;
+}
+.tabSpace{
+    margin-right: 7px;
+}
+.listBorder{
+    border: none;
+}
+.active {
+    font-weight: bold;
+    color: #59a320  !important;
+}
+.deactive{
+    color: #495057;
+}
+.imageText{
+    background-color: #706c684d !important;
+    color: black;
+}
+.queryColor{
+    color: black !important;
+}
+.buttonAlign{
+    text-align: right;
+}
+.counter{
+    line-height: 1.2;
+    border-radius: 10px;
+}
+.responseText{
+    color: #106295;
+}
+.viewRespo{
+    cursor : pointer;
+}
+.assignedIcon{
+    color:#dc3545;
+}
+.reassignedIcon{
+    color:#ffc107;
+}
+.repliedIcon{
+    color:#28a745;
+}
+.dashboardsHeading{
+    font-size: 20px;
+}
+
+
+/* Aneesh's CSS */
+
+.ReassignedQuery{
+    color:#007bff;
+}
+.QueryText{
+    color:#007bff;
+}
+.iconStyle{
+   float:right;
+   color:#8e9990;
+}
+.ColorChange{
+    color:grey;
+}
+.DColorChange{
+    color:red;
+}
+.FBIcon{
+    background: var(--imageURL_spritev9) -1681px -148px;
+    /* position:absolute; */
+    height:35px;
+    width:35px;
+    display: inline-block;
+    /* top:0;
+    left:100px; */
+}
+.ExpertText{
+    /* font-size:16px; */
+    color:#333 !important;
+}
+/* .ButtonStyle{
+    float: left !important;
+    width:fit-content;
+    margin-left: 10;
+    white-space: nowrap;
+    margin-top:4;
+    border-radius: 20;
+} */
+
+.userdashboard_dropdown{
+    color: #28a745 !important;
+    /* width: 55% !important; */
+    border-color: #28a745 !important;
+    margin-left: 5px;
+    width: 157px;
+}
+
+.TwitterIcon{
+    background:var(--imageURL_spritev9) -1736px -148px;
+    /* position:absolute; */
+    height:35px;
+    width:26px;
+    display: inline-block;
+    /* top:0;
+    left:128px; */
+}
+.WhatsAppIcon{
+    background:var(--imageURL_spritev9) -1736px -183px;
+    position:absolute;
+    height:35px;
+    width:26px;
+    top:0;
+    /* left:71px; */
+    left:-34px;
+    /* left:158px; */
+}
+/* @media screen and (min-width:700px){
+    .WhatsAppIcon{
+        display: none !important;
+        visibility: hidden !important;
+    }
+} */
+/* @media screen and (min-width: 500px) { 
+    .WhatsAppIcon { 
+        visibility: hidden;
+        display: none ;
+         clear:both;
+        float:left; 
+    } 
+}  */
+
+
+.clickedButton{
+    color:green;
+}
+.unClickedButton{
+    color:gray;
+}
+.dislikeClicked{
+    color:red;
+}
+.dislikeUnclicked{
+    color:grey;
+}
+.QueryStyle{
+    color:#000;
+    font-size:0.8em;
+    font-weight:700;
+}
+.Answer{
+    color:#000;
+    font-size:0.8em;
+    font-weight:700;
+}
+.AnswerText{
+    color:#000;
+    font-size:0.9em !important;
+}
+.QueryPosted{
+    color:#3975ff;
+    font-size:0.9em !important;
+}
+.Sharing{
+    color:grey;
+}
+/* .Transition{
+    position: absolute;
+    width: 100px;
+  height: 30px;
+  background: grey;
+   transition-property: width;
+  transition-duration: 2s; 
+  display: block;
+  position: absolute;
+  display:inline-block;
+  margin-right:auto;
+  margin-bottom:50px;
+  text-align:center;
+  margin-left:903;
+  margin-top:44;
+} */
+/* ul#menu li{
+    display: inline;
+} */
+.Transition ul > li {
+    /* position: absolute; */
+    /* display: inline-block; */
+    float: left;
+    display: block;
+    /* You can also add some margins here to make it look prettier */
+    /* zoom:1;
+    *display:inline; */
+    /* this fix is needed for IE7- */
+}
+/* .Transition:hover{
+    position: absolute;
+    width:250px;
+    float:right;
+    display: block;
+    
+    margin-left:3px;
+
+
+} */
+/* .Transition:disabled{
+    color:#6c757d;
+    pointer-events: none;
+    cursor: default;
+} */
+
+
+
+/* .Transition ul{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display:block;
+}
+.Transition li{
+    float: left;
+}
+.Transition li a{
+    display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+} */
+
+.post_query_button{
+    float: right;
+}
+.DeleteButton{
+    float: left;
+    position: absolute;
+    left:927px;
+    top:0;
+}
+.querystatus{
+    margin-left: 6px;
+}

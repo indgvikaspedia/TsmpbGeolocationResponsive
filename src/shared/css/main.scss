@@ -1,0 +1,18 @@
+$active_color: #6b9742;
+$black_color: #000000;
+$myColor: red;
+
+h3 {
+    color: $myColor;
+}
+.queryTab li a.active{
+    border-bottom-color: red($color: #000000);
+}
+
+.queryTab{
+        color: $black_color;
+}
+
+// .queryTab{
+//     color: green($color: #000000);
+// }

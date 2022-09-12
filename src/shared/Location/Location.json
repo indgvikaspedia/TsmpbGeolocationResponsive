@@ -1,0 +1,33 @@
+
+  [
+    {
+        "address": "Ramanthapur,Hyderabad,500070",
+        "lat": 17.3388,
+        "lon": 78.511265,
+        "ownershipType": "government",
+        "state": "Telangana",
+        "storageLocationName": "QPM Nursery",
+        "storageLocationType": "Nursery"
+            },
+            {
+         "address": "Ameerpet,Hyderabad",
+        "id": 3,
+        "lat": 17.4391858,
+        "lon": 78.4358656,
+        "ownershipType": "government",
+        "state": "Telangana",
+        "storageLocationName": "Ameerpet Nursery",
+        "storageLocationType": "Nursery"
+            },
+            {
+                "address": "Ameerpet,Hyderabad",
+               "id": 3,
+               "lat": 17.4391858,
+               "lon": 78.4358656,
+               "ownershipType": "government",
+               "state": "Telangana",
+               "storageLocationName": "Ameerpet Nursery",
+               "storageLocationType": "Post Harvest centers"
+              }
+        
+]

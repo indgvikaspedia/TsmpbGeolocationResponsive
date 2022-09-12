@@ -1,0 +1,15 @@
+:root{
+    --imageURL_sprite05: url(http://10.244.1.78/echarak_helpline/images/echarak_helpline_sprite05.png);
+    --imageURL_sprite05_v1: url(http://10.244.1.78/echarak_helpline/images/echarak_helpline_sprite05_v1.png);
+    --imageURL_spritev8: url(http://10.244.1.78/echarak_helpline/images/echarak_helpline_spritev8.png);
+    --imageURL_sprite01: url(http://10.244.1.78/echarak_helpline/images/echarak_helpline_sprite01.png);
+    --imageURL_bg02: url(http://10.244.1.78/echarak_helpline/images/echarak_bg02.jpg);
+    --imageURL_EC_slider: url(http://10.244.1.78/echarak_helpline/images/EC_slider_info.png);
+    /* --imageURL_spritev9: url(http://10.244.1.78/echarak_helpline/images/echarak_helpline_spritev9.png); */
+    --imageURL_spritev9: url(http://10.244.1.78/echarak_helpline/images/echarak_helpline_spritev9.png);
+    --imageURL_sprite05_v1_scss: "http://10.244.1.78/echarak_helpline/images/echarak_helpline_sprite05_v1.png";
+    --imageURL_spritev10: url(http://10.244.1.78/echarak_helpline/images/echarak_helpline_spritev10.png);
+    --imageURL_webicon: url(http://10.244.1.78/echarak_helpline/images/web_icon.png);
+    --imageURL_mobileicon: url(http://10.244.1.78/echarak_helpline/images/mobile_icon.png);
+    --imageURL_toolfreeicon: url(http://10.244.1.78/echarak_helpline/images/toll_free_icon.png);
+}

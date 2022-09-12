@@ -1,0 +1,1204 @@
+
+/* @import '../scss/variables';
+@import '../scss/dashboard';
+@import '../scss/replyquery';
+@import '../scss/expertDashboard'; */
+
+
+@import url("../shared/css/global.css");
+.footer {
+  /* background-color: $primary-color; */
+  color: white;
+  
+}
+.myTest2{
+  color: #66341d;
+}
+.header {
+  /* background-color: $primary-color; */
+  color: white;
+}
+.subHead{
+  font-weight: bold;
+}
+.jumbotron {
+  background-color: white;
+}
+.child_card{
+  width: 70%;
+  margin-left: 15%;
+}
+h3{
+    color: indigo;
+}
+.myTest{
+  color: green;
+}
+.errorMsg{
+  color: #e62929 !important;
+}
+.seemoreless a{
+  color: #ef8019;
+}
+
+.guestUserDashboard h3 {
+  color: #f26423;
+  margin-bottom: 10px;
+}
+form div .searchBox {
+  min-height: 2em;
+  box-shadow: 5px 2px 3px 1px rgba(173, 173, 173, .7);
+  font-size: 1.4em;
+  margin-bottom: 20px;
+}
+form div .searchBox:active {
+  box-shadow: none;
+}
+.faqSection {
+  -webkit-box-shadow: 3px 3px 10px 5px rgba(173, 173, 173, 0.7);
+  box-shadow: 3px 3px 10px 5px rgba(173, 173, 173, 0.7);
+  padding: 5px 10px 10px 10px;
+  margin-top: 1px;
+  margin-bottom: 20px;
+  min-height: 600px;
+  border-radius: 10px;
+}
+.langugeButtonGroup {
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+.langugeButtonGroup button {
+  margin-right: 10px;
+}
+.queryTab {
+  color: #8e9990 !important;
+  padding: 0px 10px 10px 10px !important;
+  background-color: #e9e9e9 78 !important;
+  border-radius: 0px 0px 10px 10px !important;
+}
+.queryLabel {
+  color: #000 !important;
+  /* font-size: 0.8em !important; */
+  font-size: 15px !important;
+  font-weight: bold !important;
+}
+.queryListRow {
+  min-height: 450px !important;
+}
+.queryRow {
+  padding-top: 10px !important;
+  margin-top: 5px !important;
+  padding-bottom: 4px !important;
+  border-bottom: 1px solid #ccc !important;
+}
+.queryRow_viewquery {
+  padding-top: 10px !important;
+  margin-top: 5px !important;
+  padding-bottom: 4px !important;
+}
+.iconStyle svg {
+  margin-left: 15px;
+  font-size: 16px;
+  /* margin-right: 3px; */
+}
+.iconStyle {
+  float: right;
+}
+.queryQuestion {
+  /* color: #3974ff !important;
+  font-size: 0.9em !important; */
+  color: #2f9bb4 !important;
+  font-size: 17px !important;
+  font-weight: bolder !important;
+  margin-bottom: 4px;
+  display: inline-block;
+}
+.queryAnswer {
+  /* color: #000 !important;
+  font-size: 0.9em !important; */
+  color: #333333 !important;
+  font-size: 18px !important;
+}
+.queryDetail {
+  /* color: #5c645e !important;
+  font-size: 0.75em !important; */
+  color: #767676 !important;
+  font-size: 18px !important;
+}
+.categoryButtonGroup button {
+  margin: 5px;
+}
+.queryPagination {
+  justify-content: right;
+  margin-top: 15px;
+}
+.queryNavTab {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+.activeNav {
+  border-bottom: 4px solid green !important;
+  padding-bottom: 5px !important;
+  color: green !important;
+}
+.queryNavTab li a:active {
+  color: green;
+  border-bottom: 4px solid green;
+  padding-bottom: 5px;
+}
+.queryNavTab li a:hover {
+  color: green;
+  cursor: pointer;
+}
+
+.manageExpertDashboard {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.manageExpertDashboard h3 {
+  color: #f26423;
+  margin-bottom: 10px;
+}
+.expertListTable {
+  text-align: center;
+}
+
+ .email {
+	 width: 41px;
+	 height: 39px;
+	 position: absolute;
+	 top: 43px;
+}
+ .userqa {
+	 color: #ef8019;
+	 font-size: 20px;
+}
+ .qTime {
+	 float: right;
+	 color: #939393;
+	 font-size: 14px;
+}
+ .search {
+	 width: 41px;
+	 height: 23px;
+}
+ .searchBorder {
+	 border: 1px solid #28a745;
+}
+ .assign {
+	 width: 41px;
+	 height: 45px;
+	 background: var(--imageURL_sprite05_v1_scss);
+	 position: absolute;
+	 top: 62px;
+	 left: 30px;
+}
+ .deassign {
+	 width: 41px;
+	 height: 45px;
+	 position: absolute;
+	 top: 62px;
+	 left: 30px;
+}
+ .tabSpace {
+	 margin-right: 19px;
+}
+ .listBorder {
+	 border: none;
+}
+ .active {
+	 font-weight: bold;
+	 color: green !important;
+}
+ .deactive {
+	 color: #495057;
+}
+.SearchBar{
+  max-height:max-content;
+}
+.RowStyle{
+  margin-left: auto;
+}
+.infoIcon{
+  color: #000;
+  float: right;
+  margin-right: 10px;
+  margin-top: -6px;
+}
+.trashIcon{
+  color: #ea5555;
+  float: right;
+  margin-top: -6px;
+}
+@media screen and (max-width:800px){
+  .child_card {
+      width: auto;
+      margin-left: 0px;
+   }
+}
+.isActive{
+  background-color: #007bff !important;
+  color:#fff !important;
+}
+/* ------------------------TSMPB Styling-------------------- */
+.LabelFont{
+  font-size:18px;
+  font-family: "sans-serif !important";
+  /* font-family:sans-serif */
+  /* margin-left:28px; */
+}
+.LabelFont::after{
+  content: "*";
+  color:red;
+}
+.ClusterText{
+  font-size:19px;
+  font-family: "serif !important";
+  margin-left: 37px;
+}
+.ClusterText::after{
+  content:"*";
+  color:red;
+}
+.NavPlacement{
+  place-content:space-evenly;
+  height:120px;
+  display: flex;
+  text-align: center;
+}
+.LabelFont1{
+  font-size:19px;
+  font-family: serif;
+}
+.IconsCard{
+  border-style: hidden;
+}
+.ProgressBarCard{
+  border-style: hidden;
+}
+.ClusterContainer{
+  display:flex;
+  justify-content:'center';
+  border-radius:10px;
+  margin-top:20px;
+}
+.TandCIcon{
+  /* top:44px; */
+  position: absolute;
+  background: url(https://keyword.vikaspedia.in/tsmpbmedia/sprite01.png) no-repeat;
+  background-position: -56px -72px;
+  height: 60px;
+  width:68px;
+  /* border:1px solid black; */
+}
+.ReviewandSubmitIcon{
+  /* top:44px; */
+  position: absolute;
+  background:url(https://keyword.vikaspedia.in/tsmpbmedia/sprite01.png) no-repeat;
+  background-position: -50px -165px;
+  height:60px;
+  width:68px;
+  /* border:1px solid black; */
+}
+.ReviewAndSubmitIconCompleted{
+  /* top:44px; */
+  position: absolute;
+  background:url(https://keyword.vikaspedia.in/tsmpbmedia/sprite01.png) no-repeat;
+  background-position: -144px -165px;
+  height:60px;
+  width:68px;
+}
+.TandCIconCompleted{
+  /* top:44px; */
+  position: absolute;
+  background:url(https://keyword.vikaspedia.in/tsmpbmedia/sprite01.png) no-repeat;
+  background-position:-143px -165px;
+  height:60px;
+  width:68px;
+}
+.ClusterRegistrationIcon{
+  /* top:44px; */
+  position: absolute;
+  background:url(https://keyword.vikaspedia.in/tsmpbmedia/sprite01.png) no-repeat;
+  background-position: -241px -165px;
+  height:60px;
+  width:68px;
+  /* border:1px solid black; */
+}
+.ClusterRegistrationIconCompleted{
+  /* top:44px; */
+  position: absolute;
+  background: url(https://keyword.vikaspedia.in/tsmpbmedia/sprite01.png) no-repeat;
+  background-position: -143px -79px;
+  height: 54px;
+  width:68px;
+  /* border:1px solid black; */
+}
+.FarmerRegistrationIconActive{
+  /* top:39px; */
+  position: absolute;
+  background: url(https://keyword.vikaspedia.in/tsmpbmedia/sprite01.png) no-repeat;
+  background-position: -236px -74px;
+  height: 65px;
+  width:68px;
+  /* border:1px solid black; */
+}
+.SubsidyIcon{
+  /* top:44px; */
+  position: absolute;
+  background: url(https://keyword.vikaspedia.in/tsmpbmedia/sprite01.png) no-repeat;
+  background-position: -499px -71px;
+  height: 65px;
+  width:68px;
+  /* border:1px solid black; */
+}
+.SubsidyIconActive{
+  /* top:44px; */
+  position: absolute;
+  background: url(https://keyword.vikaspedia.in/tsmpbmedia/sprite01.png) no-repeat;
+  background-position: -408px -71px;
+  height: 65px;
+  width:68px;
+  /* border:1px solid black; */
+}
+.ClusterIcon{
+  position: absolute;
+  background: url(https://keyword.vikaspedia.in/tsmpbmedia/sprite01.png) no-repeat;
+  background-position: -603px -112px;
+  height: 34px;
+  width:40px;
+}
+.StateIcon{
+  position: absolute;
+  background:url(https://keyword.vikaspedia.in/tsmpbmedia/sprite01.png) no-repeat;
+  background-position: -658px -113px;
+  height:30px;
+  width:30px;
+}
+.DistrictIcon{
+  position: absolute;
+  background:url(https://keyword.vikaspedia.in/tsmpbmedia/sprite01.png) no-repeat;
+  background-position: -688px -113px;
+  height:30px;
+  width:30px;
+}
+.MandalIcon{
+  position: absolute;
+  background: url(https://keyword.vikaspedia.in/tsmpbmedia/sprite01.png) no-repeat;
+  background-position: -723px -113px;
+  height:30px;
+  width:30px;
+}
+.TehsilIcon{
+  position: absolute;
+  background:url(https://keyword.vikaspedia.in/tsmpbmedia/sprite01.png) no-repeat;
+  background-position: -757px -113px;
+  height:30px;
+  width:30px;
+}
+.VillageIcon{
+  position: absolute;
+  background:url(https://keyword.vikaspedia.in/tsmpbmedia/sprite01.png) no-repeat;
+  background-position: -791px -113px;
+  height:30px;
+  width:30px;
+}
+.PincodeIcon{
+  position: absolute;
+  background:url(https://keyword.vikaspedia.in/tsmpbmedia/sprite01.png) no-repeat;
+  background-position: -826px -114px;
+  height:30px;
+  width:30px;
+}
+.RoleIcon{
+  position: absolute;
+  background:url(https://keyword.vikaspedia.in/tsmpbmedia/sprite01.png) no-repeat;
+  background-position: -866px -110px;
+  height:30px;
+  width:35px;
+}
+.NameIcon{
+  position: absolute;
+  background:url(https://keyword.vikaspedia.in/tsmpbmedia/sprite01.png) no-repeat;
+  background-position: -909px -108px;
+  height:30px;
+  width:30px;
+}
+.GenderIcon{
+  position: absolute;
+  background:url(https://keyword.vikaspedia.in/tsmpbmedia/sprite01.png) no-repeat;
+  background-position: -944px -107px;
+  height:30px;
+  width:40px;
+}
+.ForHIcon{
+  position: absolute;
+  background:url(https://keyword.vikaspedia.in/tsmpbmedia/sprite01.png) no-repeat;
+  background-position: -1006px -115px;
+  height:30px;
+  width:50px;
+}
+.CategoryIcon{
+  position: absolute;
+  background:url(https://keyword.vikaspedia.in/tsmpbmedia/sprite01.png) no-repeat;
+  background-position: -1067px -115px;
+  height:30px;
+  width:37px;
+}
+.PhoneIcon{
+  position: absolute;
+  background:url(https://keyword.vikaspedia.in/tsmpbmedia/sprite01.png) no-repeat;
+  background-position: -1110px -112px;
+  height:30px;
+  width:30px;
+}
+.EmailIcon{
+  position: absolute;
+  background:url(https://keyword.vikaspedia.in/tsmpbmedia/sprite01.png) no-repeat;
+  background-position: -1149px -113px;
+  height:30px;
+  width:30px;
+}
+.AadhaarIcon{
+  position: absolute;
+  background:url(https://keyword.vikaspedia.in/tsmpbmedia/sprite01.png) no-repeat;
+  background-position: -1188px -116px;
+  height:30px;
+  width:30px;
+}
+td{
+  word-break: break-all;
+}
+.RoundTab{
+  position: absolute;
+  top:124px;
+  width: 25px;
+        height: 25px;
+        line-height: 22px;
+        display: inline-block;
+        border-radius: 50%;
+        /* background: #fff; */
+        /* border: 2px solid #767676; */
+        color: white;
+        /* z-index: 2; */
+        /* position: absolute; */
+        /* left: 0; */
+        text-align: center;
+        font-size: 14px;
+        background-color: lightgrey;
+}
+.ActiveRoundTab{
+  position: absolute;
+  top:124px;
+  width: 25px;
+        height: 25px;
+        line-height: 22px;
+        display: inline-block;
+        border-radius: 50%;
+        /* background: #fff; */
+        border: 2px solid #767676;
+        color: white;
+        /* z-index: 2; */
+        /* position: absolute; */
+        /* left: 0; */
+        text-align: center;
+        font-size: 14px;
+        background-color: green;
+}
+.ActiveFlowColor{
+  color:green;
+}
+.FlowColor{
+  color:lightgray;
+}
+.RoundTab::after{
+  /* position: relative; */
+  content: '';
+  position: absolute;
+  height:3px;
+  width: 200px;
+  display: block;
+  background:#ccc;
+  /* left:182px; */
+  top:10px;
+  /* width:200px; */
+  z-index: -1;
+}
+.ProgressBarContainer{
+  display:  flex;
+	justify-content:  space-between;
+	align-items:  flex-end;
+	width:  900px;
+	margin:  0  auto;
+  margin-bottom:  40px;
+  margin-top:46px;
+  margin-left:217px;
+}
+.Step{
+  text-align: center;
+}
+.ProgressBar{
+  text-align: center;
+}
+/* .ProgressBar{
+  counter-reset: step;
+} */
+.ProgressBar li{
+  /* position: absolute; */
+  list-style-type: none;
+  /* width:20%; */
+  float: left;
+  display: block;
+}
+.RoundTab1{
+  border: 1px solid grey;
+	height: 20px;
+	width: 20px;
+	border-radius: 100%;
+  color: #fff;
+  background-color: grey;
+	/* display: inline-block; */
+  /* position: relative; */
+  position: absolute;
+	transition: 'background-color 500ms';
+  line-height:20px;
+}
+.ActiveTab1{
+  border: 1px solid green;
+	height: 20px;
+	width: 20px;
+	border-radius: 100%;
+  color: #fff;
+  background-color: green;
+	/* display: inline-block; */
+  /* position: relative; */
+  position: absolute;
+	transition: 'background-color 500ms';
+  line-height:20px;
+}
+.Completed{
+  /* content:'✓'; */
+  background-color: green;
+}
+.First{
+  content:'1';
+}
+.RoundTab1:hover{
+  background: goldenrod;
+}
+/* .ActiveTab1::after{
+  content:'';
+  position: absolute;
+  width:200px;
+  height:3px;
+  display: block;
+  z-index: -1;
+  background: grey;
+}
+.RoundTab1::after{
+  content:'';
+  position: absolute;
+  width:300px;
+  height:3px;
+  display:block;
+  z-index:-1;
+  background: grey;
+} */
+.ProgressBarContainer::after{
+  content:'';
+  /* text-decoration-style: dashed; */
+  position: absolute;
+  width:900px;
+  height:3px;
+  display:flex;
+  z-index:-1;
+  /* background: lightgrey; */
+  border-top:3px dashed lightgrey;
+  /* justify-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle; */
+  margin-top:14px;
+  /* top:4px; */
+}
+.Step::after{
+  content: '';
+  /* text-decoration-style: dashed; */
+  position: absolute;
+  width:230px;
+  height:3px;
+  /* display: flex; */
+  z-index:0;
+  border-top:2px solid lightgray;
+  margin-top:14px;
+  background-color:lightgray;
+}
+.Completed::after{
+  background-color:green !important;
+  width:220px;
+  height:3px !important;
+  z-index:1;
+  content:'';
+  position: absolute;
+  margin-top:8px;
+  border-top:2px solid green;
+  /* display:block; */
+  /* left:13px; */
+}
+.FarmerRegistrationIcon{
+  /* top:39px; */
+  position: absolute;
+  background: url(https://keyword.vikaspedia.in/tsmpbmedia/sprite01.png) no-repeat;
+  background-position: -321px -73px;
+  height: 65px;
+  width:68px;
+  /* border:1px solid black; */
+}
+.FarmerRegistrationIconComplete{
+  /* top:39px; */
+  position: absolute;
+  background: url(https://keyword.vikaspedia.in/tsmpbmedia/sprite01.png) no-repeat;
+  background-position: -236px -74px;
+  height: 65px;
+  width:68px;
+  /* border:1px solid black; */
+}
+.ActiveTextColor{
+  color:#4b5320;
+}
+.DefaultColor{
+  color:black;
+}
+.NavPlacement::after{
+  content:'';
+  /* text-decoration-style: dashed; */
+  position: absolute;
+  width:900px;
+  height:3px;
+  /* display:flex; */
+  z-index:-1;
+  border-top:3px solid lightgrey;
+  margin-top:14px;
+}
+.Circle{
+  border-radius: 50%;
+  width:25px;
+  height:25px;
+  /* padding:4px; */
+  border:2px solid #000;
+  text-align:center;
+  color:#000;
+}
+.StepsBar{
+  text-align: center;
+  width:34%;
+  margin:auto;
+}
+/* .StepsBar span::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  height: 100%;
+  border-left: 1px #ccc solid;
+} */
+.StepProgressBar li{
+  display: flex;
+}
+.StepProgressBar span{
+  padding: 0 1.5em 1.5em 1.5em;
+  position: relative;
+}
+.StepProgressBar span::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  height: 100%;
+  border-left: 1px #ccc solid;
+}
+/* .Circle::before{
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 429px;
+  height: 56px;
+  border-left: 3px #ccc solid;
+} */
+.CircleActive{
+  border-radius: 50%;
+  width:25px;
+  height:25px;
+  /* padding:4px; */
+  border:2px solid green;
+  text-align:center;
+  color:#fff;
+  background-color: green;
+}
+/* .CircleActive::after{
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 429px;
+  height: 56px;
+  border-left: 3px #ccc solid;
+  color:#fff;
+} */
+.CircleCompleted{
+  background-color: green;
+  color:white;
+}
+/* .CircleCompleted::after{
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 429px;
+  height: 56px;
+  border-left: 3px green solid;
+  color:#fff;
+} */
+.StepsBar strong{
+  color:black !important;
+}
+.StepProgressBar { margin: 1em; width: 50%; }
+.StepProgressBar, 
+.StepProgressBar *::before, 
+.StepProgressBar *::after { box-sizing: border-box; font-family: arial; }
+
+@media screen and (max-width: 425px){
+  .Circle::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 260px;
+    height: 56px;
+    border-left: 3px #ccc solid;
+  }
+  .CircleActive::after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 260px;
+    height: 56px;
+    border-left: 3px #ccc solid;
+    color:#fff;
+  }
+  .CircleCompleted::after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 260px;
+    height: 56px;
+    border-left: 3px green solid;
+    color:#fff;
+  }
+}
+.StepsContainer{
+  width:100%;
+}
+.SubsidyStepsBarList{
+  counter-reset: step;
+}
+.SubsidyStepsBarList li{
+  list-style: none;
+  display: inline-block;
+  width: 33.33%;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+.SubsidyStepsBarList li::before{
+  content: counter(step);
+  counter-increment: step;
+  width: 30px;
+  height: 30px;
+  line-height : 30px;
+  border: 1px solid #ddd;
+  border-radius: 100%;
+  display: block;
+  text-align: center;
+  margin: 0 auto 10px auto;
+  background-color: lightgrey;
+  position: relative;
+  z-index: 1;
+}
+.SubsidyStepsBarList li::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: grey;
+  top: 15px;
+  left: -50%;
+  z-index : 0;
+}
+.SubsidyStepsBarList li:first-child:after {
+  content: none;
+}
+.SubsidyStepsBarList li:fourth-child:after {
+  content: none;
+}
+.SubsidyStepsBarList li.active {
+  color: green;
+}
+.SubsidyStepsBarList li.active:before {
+  border-color: green;
+  background-color: green;
+  color:white;
+} 
+.SubsidyStepsBarList li.active + li:after {
+  background-color: green;
+}
+.StepsBarList{
+  counter-reset:step;
+}
+.StepsBarList li{
+  list-style: none;
+  display: inline-block;
+  width: 19.33%;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+.IconsContainer{
+  width:100%;
+  /* height:65px; */
+  margin-left: 68px;
+  height: 87px;
+}
+@media screen and (max-width:768px){
+  .IconsContainer{
+    margin-left: 53px !important;
+  }
+}
+.IconsContainerList li{
+  list-style: none;
+  display: inline-block;
+  width:19.33%;
+  position: relative;
+}
+.StepsBarList li::before{
+  content: counter(step);
+  counter-increment: step;
+  width: 30px;
+  height: 30px;
+  line-height : 30px;
+  border: 1px solid #ddd;
+  border-radius: 100%;
+  display: block;
+  text-align: center;
+  margin: 0 auto 10px auto;
+  background-color: lightgrey;
+  position: relative;
+  z-index: 1;
+}
+.StepsBarList li::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: grey;
+  top: 15px;
+  left: -50%;
+  z-index : 0;
+}
+.StepsBarList li:first-child:after {
+  content: none;
+}
+.StepsBarList li:fourth-child:after {
+  content: none;
+}
+.StepsBarList li.active {
+  color: green;
+}
+.StepsBarList li.active:before {
+  border-color: green;
+  background-color: green;
+  color:white;
+} 
+.StepsBarList li.active + li:after {
+  background-color: green;
+}
+.ActiveListItem{
+  background-color: white;
+  /* color:white;
+  border-color: green; */
+}
+.ActiveListItem::before{
+  /* content: "✓" !important; */
+  background-color:#56753e !important;
+  color:white;
+}
+.ActiveListItem::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px !important;
+  background-color: #56753e !important;
+  top: 15px;
+  left: -50%;
+  z-index : 0;
+}
+.CompletedLI::before{
+  content: "✓" !important;
+  background-color: #56753e !important;
+  color:white;
+}
+.CompletedLI::after{
+  content: "";
+  position: absolute;
+  width:100%;
+  height: 2px !important;
+  background-color: #56753e !important;
+  top:15px;
+  left:-50%;
+  z-index: 0;
+}
+.CompletedLI1::after{
+  content: "";
+  position: absolute;
+  width:100%;
+  height: 2px !important;
+  background-color: #56753e !important;
+  top:15px;
+  left:-50%;
+  z-index: 0;
+}
+.CompletedLI1::before{
+  content: "✓" !important;
+  background-color: #56753e !important;
+  color:white;
+}
+.Farmerh4{
+  text-align: center;
+  color:#56753e !important;
+  font-weight: 600;
+}
+#btnline{
+  background: transparent;
+  border: none;
+  outline: none;
+  
+}
+/* @media screen and (max-width : 768px){
+  .IconsContainer{
+    margin-left: 53px;
+  }
+} */
+/* .ProgressBar li::after{
+  content:'';
+  width:20px;
+  height:20px;
+  border:2px solid #ccc;
+  display: block;
+  border-radius: 50%;
+} */
+/* .ActiveRoundTab::after{
+  content: '';
+  position: absolute;
+  width:218px;
+  height:3px;
+  top:10px;
+  z-index: -1;
+  display: block;
+  background: #ccc;
+} */
+/* .ActiveRoundTab::after{
+  position: relative;
+  content: '';
+  position: absolute;
+  height:3px;
+  width: 500px;
+  display: block;
+  background:#ccc;
+  left:182px;
+  top:10px;
+  width:900px;
+  z-index: -1;
+} */
+/* .ActiveRoundTab::before{
+  content: '';
+  position: absolute;
+  height:3px;
+  display: block;
+  background:green !important;
+  top:110px;
+  width:200px;
+  z-index: -1;
+} */
+/* .NavPlacement li:nth-child(2) .ActiveRoundTab{
+  background:green;
+}
+.NavPlacement li:nth-child(2) .ActiveRoundTab::after{
+  background: green;
+} */
+
+/* .nav-tabs > .NavLink{
+  position: relative;
+} */
+/* .ActiveTab{
+  background-color: green;
+} */
+/* .active .RoundTab{
+  background-color: green;
+} */
+
+/* .NavPlacement{
+  nav-tabs {
+    position: relative;
+  }
+.nav-tabs > li {
+    width: 25%;
+    position: relative;
+    ::after {
+        content: '';
+        position: absolute;
+        background: #f1f1f1;
+        display: block;
+        width: 100%;
+        height: 5px;
+        top: 30px;
+        left: 50%;
+        z-index: 1;
+    }
+    &.completed {
+        &::after {
+            background: #34bc9b;
+        }
+    }
+    &:last-child {
+        &::after {
+            background: transparent;
+        }
+    }
+    &.active:last-child {
+        .round-tab {
+            background: #34bc9b;
+            &::after {
+                content: '✔';
+                color: #fff;
+                position: absolute;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                top: 0;
+                display: block;
+            }
+        }
+    }
+}
+.nav-tabs [data-toggle='tab'] {
+    width: 25px;
+    height: 25px;
+    margin: 20px auto;
+    border-radius: 100%;
+    border: none;
+    padding: 0;
+    color: #f1f1f1;
+}
+.nav-tabs [data-toggle='tab']:hover {
+    background: transparent;
+    border: none;
+}
+.nav-tabs > .active > [data-toggle='tab'], .nav-tabs > .active > [data-toggle='tab']:hover, .nav-tabs > .active > [data-toggle='tab']:focus {
+    color: #34bc9b;
+    cursor: default;
+    border: none;
+}
+.tab-pane {
+    position: relative;
+    padding-top: 50px;
+}
+} */
+.SeedIndentIcon{
+  /* position: absolute; */
+  background: url(https://keyword.vikaspedia.in/tsmpbmedia/TSMPB_sprite01.png) no-repeat;
+  background-position: -433px -165px;
+  height: 65px;
+  width:38px;
+}
+.AlertIcon{
+   /* position: absolute;  */
+  background: url(https://keyword.vikaspedia.in/tsmpbmedia/TSMPB_sprite01.png) no-repeat;
+  background-position: -500px -165px;
+  height: 65px;
+  width:38px;
+}
+.SubsidyTabIcon{
+  /* position: absolute; */
+  background: url(https://keyword.vikaspedia.in/tsmpbmedia/TSMPB_sprite01.png) no-repeat;
+  background-position: -567px -165px;
+  height: 65px;
+  width:30px;
+  
+}
+.ExpertIcon{
+ 
+  /* position: absolute; */
+  background: url(https://keyword.vikaspedia.in/tsmpbmedia/TSMPB_sprite01.png) no-repeat;
+  background-position: -644px -165px;
+  height: 65px;
+  width:37px;
+}
+.InfoIcon{
+ background: url(https://keyword.vikaspedia.in/tsmpbmedia/TSMPB_sprite01.png) no-repeat;
+background-position: -768px -178px;
+height: 50px;
+width: 25px;
+margin-left: -125px;
+}
+
+.SuccessIcon{
+  background: url(https://keyword.vikaspedia.in/tsmpbmedia/TSMPB_sprite01.png) no-repeat;
+  background-position: -723px -178px;
+  height: 50px;
+  width: 25px;
+  margin-left: -125px;
+  }
+
+.WarningIcon{
+  background: url(https://keyword.vikaspedia.in/tsmpbmedia/TSMPB_sprite01.png) no-repeat;
+background-position: -815px -178px;
+height: 50px;
+width: 25px;
+margin-left: -125px;
+}
+.ErrorIcon{
+  background: url(https://keyword.vikaspedia.in/tsmpbmedia/TSMPB_sprite01.png) no-repeat;
+  
+background-position: -864px -178px;
+height: 50px;
+width: 25px;
+margin-left: -200px;
+}
+
+.circle {
+  background: #d83b01;
+  border-radius: 50%;
+  color: #fff;
+  height: 2.7em;
+  position: relative;
+  width: 2.7em;
+  font-size: 14px;
+  border: 1px solid transparent;
+}
+.red-color{
+  color:darkred;
+}
+
+/* .circleText {
+  text-align: center;
+  height: 50%;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  font-size: 14px;
+} */
+.faMapMarker{
+  font-size: "14px";
+  color: #28a745;
+}
+
+

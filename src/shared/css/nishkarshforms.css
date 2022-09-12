@@ -1,0 +1,746 @@
+/*   "Update Subsidy" Form CSS Starts Here*/
+.tsmpb{
+    color: green;
+    text-align: center;
+    padding: 30px;
+    /* margin-top: 200px;
+    margin-bottom: 200px;
+    margin-right: 150px;
+    margin-left: 150px; */
+}
+
+.round{
+    border-radius: 25px !important;
+    border: 1px solid;
+    -webkit-appearance: menulist !important;
+}
+
+/* .btn{
+    margin-right: 200px;
+} */
+
+.tsmpb2 {
+    color: black;
+    background-color: lemonchiffon;
+    height: 80px;
+    /* padding: 50px;
+    padding-bottom: 30px; */
+}
+
+.img{
+    padding-top: 10px;
+    height: 65px;
+    width: 55px;
+    margin-right: 20px;
+}
+
+.zero{
+    margin-top: -20px;
+    margin-left: 65px;
+}
+
+
+
+
+
+
+
+
+
+
+/*   "Cluster Name" Form CSS Starts Here*/
+.form_ct_zero{
+    color:black;
+    /* margin-top: 200px; */
+}
+
+.form_ct_one{
+    color:black;
+    /* margin-right: 12px; */
+    /* margin-top: 200px; */
+    /* margin-bottom: 200px; */
+    /* margin-left:200px */
+}
+
+.form_ct_two{
+    color:black;
+    /* margin-bottom: 200px; */
+}
+
+.select{
+    -webkit-appearance: menulist !important;
+}
+
+.bt{
+    margin-left: 220px;
+}
+
+
+
+
+
+
+
+
+
+
+/* TSMPB "Homepage Header" CSS Starts Here:- */
+.head{
+    min-height: 120px;
+    background-color:rgb(2, 85, 2);
+    padding: 10px 0px;
+}
+.flex-center {
+    display: flex;
+    align-items: center !important;
+}
+.left_part {
+    margin-left: 4px;
+}
+.left_part p {
+    margin: 0;
+}
+.right_part {
+    margin-right: 6px;
+}
+.right_part p {
+    margin: 0;
+}
+.col1{
+    min-height: 120px;
+    color: white;
+    text-align: left;
+    padding-right: 0px !important;
+}
+
+.col1p1{
+    margin-left: 80px;
+    margin-bottom: 0px;
+    margin-top: -80px;
+}
+
+.col1p2{
+    margin-left: 80px;
+    margin-bottom: 0px;
+    margin-top: -5px;
+}
+
+.col2{
+    height: 120px;
+    background-color: white;
+    color: green;
+    border-radius: 60px;
+    text-align: center;
+    padding: 0px !important;
+}
+
+.col2p1{
+    margin-bottom: 0px;
+}
+
+.col2p2{
+    font-size: 11px;
+    margin-bottom: 0px;
+}
+
+.col3{
+    min-height: 120px;
+    color: white;
+    text-align: right;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.col3p1{
+    margin-right: 80px;
+    margin-bottom: 0px;
+    margin-top: 38px;
+}
+
+.col3p2{
+    margin-right: 80px;
+    margin-bottom: 0px;
+    font-size: 10px;
+}
+
+.logo1{
+    height: 75px;
+    width: 75px;
+}
+
+.logo2{
+    height: 70px;
+}
+
+.logo3{
+    height: 75px;
+    width: 75px;
+}
+
+@media screen and (max-width:1216px){
+    .logo3 {
+        height: 75px;
+        width: 75px;
+    }
+    .logo2 {
+        height: 52px;
+    }
+    .col1, .col3 {
+        font-size: 9px;
+    }
+    .col2 {
+        font-size: 13px;
+    }
+    .col2p2{
+        font-size: 9px;
+    }
+}
+@media screen and (max-width:760px){
+    .logo1 {
+        height: 50px;
+        width: 50px;
+    }
+    .col1p1 {
+        margin-left: 68px;
+        margin-top: -72px;
+        font-size: 10px;
+    }
+    .col1p2 {
+        margin-left: 68px;
+        margin-top: 1px;
+        font-size: 10px;
+    }
+    .logo2 {
+        height: 45px;
+    }
+    .col2p1 {
+        font-size: 11px;
+    }
+    .col2p2 {
+        font-size: 8px;
+    }
+    .col3p1 {
+        margin-right: 55px;
+        margin-top: 38px;
+        font-size: 10px;
+    }
+    .col3p2 {
+        margin-right: 55px;
+        font-size: 9px;
+    }
+    .logo3 {
+        height: 50px;
+        width: 50px;
+    }
+} 
+
+@media screen and (max-width:506px){
+    .head{
+        min-height: 120px;
+        background-color:rgb(2, 85, 2);
+        /* min-height: calc(100vh - 125px); */
+    }
+    .hdcon.container{
+        padding: 0 6px;
+    }
+    .right_part,.left_part{
+        font-size: 6px;
+    }
+    .col1{
+        min-height: 118px;
+        color: white;
+        text-align: left;
+        padding-right: 0px !important;
+        font-size: 8px;
+
+        /* max-width: min-content; */
+    }
+
+    .col1p1{
+        margin-left: 42px;
+        margin-bottom: 0px;
+        margin-top: -75px;
+        font-size: 6px;
+    }
+    
+    .col1p2{
+        margin-left: 42px;
+        margin-bottom: 0px;
+        margin-top: 1px;
+        font-size: 6px;
+    }
+    
+    .col2{
+        height: 118px;
+        background-color: white;
+        color: green;
+        border-radius: 60px;
+        text-align: center;
+        padding: 0px !important;
+        font-size: 6px;
+        /* max-width: max-content; */
+    }
+
+    .col2p1{
+        margin-bottom: 0px;
+        font-size: 7px;
+    }
+    
+    .col2p2{
+        font-size: 5px;
+        margin-bottom: 0px;
+    }
+    
+    .col3{
+        min-height: 118px;
+        color: white;
+        text-align: right;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        font-size: 8px;
+        /* max-width: min-content; */
+    }
+
+    .col3p1{
+        margin-right: 42px;
+        margin-bottom: 0px;
+        margin-top: 38px;
+        font-size: 6px;
+    }
+    
+    .col3p2{
+        margin-right: 42px;
+        margin-bottom: 0px;
+        font-size: 5px;
+    }
+    
+    .logo1{
+        height: 40px;
+        width: 40px;
+    }
+    
+    .logo2{
+        margin-top: 5px;
+        height: 40px;
+    }
+    
+    .logo3{
+        height: 40px;
+        width: 40px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+/* TSMPB "Homepage Body Carousel" CSS Starts Here:- */
+.div{
+    /* background-color: green; */
+    /* height: 550px; */
+    margin-top: 15px;
+    margin-bottom: 71px;
+    background-image: url(https://keyword.vikaspedia.in/tsmpbmedia/Homepage_bg.png);
+}
+
+.hccon{
+    max-width:1400px !important;
+}
+.hdcon{
+    max-width:1320px !important
+}
+
+.clmn1{
+    /* background-color: palevioletred; */
+    padding: 0px !important;
+    /* padding-left: 0px; */
+    /* max-width: 63.66% !important; */
+    /* background-image: url(https://keyword.vikaspedia.in/tsmpbmedia/TSMPB-Content-Banner-2.png); */
+    /* height: 500px; */
+    /* width: 1175; */
+}
+
+#homeCarousel .banner{
+    height: 550px;
+    max-width: 840px;
+    padding:0px !important;
+}
+#homeCarousel .carousel-inner,#homeCarousel .carousel-item,#homeCarousel .carousel-item img{
+    height: 100%;
+}
+.bg-image{
+    /*height: 100%;*/
+    margin-top: 105px;
+    background-size: 190px;
+    background-repeat: no-repeat;
+    background-position: center right;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding-right: 130px;
+    padding-left: 0px;
+}
+
+.bg-image .one img{
+    height: 35px;
+    width: 35px;
+}
+
+.one{
+    margin: 17px 0px;
+    display: flex;
+  }
+  .one a {
+    padding-right: 12px;
+    white-space: nowrap;
+  }
+  .one .bg-one {
+        display: block;
+        position: relative;
+        width: 100%;
+        margin-right: 4px;
+  }
+  .bg-one::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background: green;
+    top: 50%;
+}
+.bg-one::after {
+    content: '';
+    position: absolute;
+    width: 61px;
+    height: 4px;
+    right: -58px;
+    background: green;
+    
+}
+.bg-image .one:nth-child(1) .bg-one::after{
+    top: 44px;
+    transform: rotate(32deg);
+    width: 104px;
+    right: -95px;
+}
+.bg-image .one:nth-child(2) .bg-one::after{
+    top: 26px;
+    transform: rotate(18deg);
+}
+.bg-image .one:nth-child(3) .bg-one::after{
+    top: 17.5px;
+    transform: rotate(0deg);
+}
+.bg-image .one:nth-child(4) .bg-one::after{
+    top: 17.5px;
+    transform: rotate(0deg);
+}
+.bg-image .one:nth-child(5) .bg-one::after{
+    transform: rotate(-18deg);
+    top: 8px;
+}
+.bg-image .one:nth-child(6) .bg-one::after{
+    transform: rotate(-33deg);
+    width: 116px;
+    top: -14px;
+    right: -102px;
+    
+}
+.bg-img-part{
+    position: absolute;
+    top: 38%;
+    right: 0px;
+    transform: translate(0%,-50%);
+}
+.clmn2{ 
+    /* background-color: orange; */
+    /* height: 500px; */
+    /* padding: 0px !important; */
+    /* padding-left: px; */
+    height: 550px;
+    /* background-color: gold; */
+    border-radius: 50% 0 0 50%;
+ }
+
+.clmn3{
+    /* background-color:fuchsia; */
+    height: 550px;
+    padding-right:0px !important;
+    padding-left: 0px !important;
+    color: green;
+    font-size:20px;
+    /* text-align: right; */
+}
+
+.icn_med{
+    height: 35px;
+    width: 35px;
+    margin-left: -41px;
+    margin-right: 5px;
+    margin-top: -7px;
+}
+
+.icn_sbsdy{
+    height: 37px;
+    width: 35px;
+    margin-left: -28px;
+    margin-right: 5px;
+    margin-top: -7px;
+}
+
+.icn_loc{
+    height: 35px;
+    width: 35px;
+    margin-left: -56px;
+    margin-right: 6px;
+}
+
+.icn_market{
+    height: 33px;
+    width: 32px;
+    margin-left: -56px;
+    margin-right: 8px;
+}
+
+.icn_art{
+    height: 30px;
+    width: 30px;
+    margin-left: -60px;
+    margin-right: 8px;
+}
+
+.icn_help{
+    height: 30px;
+    width: 30px;
+    margin-left: -64px;
+    margin-right: 8px;
+}
+
+.hp_link{
+    /* color: green; */
+    font-size: 17px;
+}
+
+.shape_medplnt{
+    height: 30px;
+    width: 167px;
+    border-top: 4px solid green;
+    border-right: 4px solid green;
+    -moz-transform: skew(25deg);
+    -webkit-transform: skew(25deg);
+    transform: skew(25deg);
+    margin-left: 163px;
+    margin-top: -20px;
+    padding: 0px !important;
+}
+
+.shape_sbsdy{
+    height: 10px;
+    width: 96px;
+    border-top: 4px solid green;
+    border-right: 4px solid green;
+    -moz-transform: skew(40deg);
+    -webkit-transform: skew(40deg);
+    transform: skew(40deg);
+    margin-left: 190px;
+    margin-top: -20px;
+}
+
+.shape_loc_ut{
+    width: 65px;
+    border-top: 4px solid green;
+    margin-left: 158px;
+    margin-top:-20px;
+}
+
+.shape_mrk_plc{
+    width: 58px;
+    border-top: 4px solid green;
+    margin-left: 158px;
+    margin-top:-20px;
+}
+
+.shape_alrt{
+    height: 10px;
+    width: 75px;
+    border-bottom: 4px solid green;
+    border-right: 4px solid green;
+    -moz-transform: skew(-40deg);
+    -webkit-transform: skew(-40deg);
+    transform: skew(-40deg);
+    margin-left: 158px;
+    margin-top: -27px;
+}
+
+.shape_helpline{
+    height: 30px;
+    width: 155px;
+    border-bottom: 4px solid green;
+    border-right: 4px solid green;
+    -moz-transform: skew(-25deg);
+    -webkit-transform: skew(-25deg);
+    transform: skew(-25deg);
+    margin-left: 137px;
+    margin-top:-45px;
+}
+
+.clmn4{
+    padding: 0px !important;
+    /* background-color: turquoise; */
+    /* height:550px; */
+}
+
+/* .clmn4_div_semicircle{
+    height: 350px;
+    width: 182px;
+    background-color:white;
+    border-top-left-radius: 250px;
+    border-bottom-left-radius: 250px;
+    border: 25px solid green;
+    border-right: 0px;
+    margin-top:50px;
+    margin-left: 130px;
+    margin-right: -40px;
+} */
+
+@media screen and (max-width:505px){
+    .bg-image .one img {
+        height: 25px;
+        width: 25px;
+    }    
+    .hp_link {
+        font-size: 13px;
+    }
+    .bg-image .one:nth-child(1) .bg-one::after{
+        top: 39px;
+        transform: rotate(32deg);
+        width: 102px;
+        right: -92px;
+    }
+    .bg-image .one:nth-child(2) .bg-one::after{
+        top: 22px;
+        transform: rotate(18deg);
+    }
+    .bg-image .one:nth-child(3) .bg-one::after{
+        top: 12.5px;
+        transform: rotate(0deg);
+    }
+    .bg-image .one:nth-child(4) .bg-one::after{
+        top: 12.5px;
+        transform: rotate(0deg);
+    }
+    .bg-image .one:nth-child(5) .bg-one::after{
+        transform: rotate(-18deg);
+        top: 4px;
+    }
+    .bg-image .one:nth-child(6) .bg-one::after{
+        transform: rotate(-33deg);
+        width: 75px;
+        top: -7px;
+        right: -66px;
+        
+    }
+}
+
+
+
+@media screen and (max-width:378px){
+    
+    .bg-image .one img {
+        height: 25px;
+        width: 25px;
+    }
+    .hp_link {
+        font-size: 13px;
+    }
+    #homeCarousel .banner {
+        height: 150px;
+    }
+}
+@media screen and (max-width:758px){
+    #homeCarousel .banner {
+        height: 250px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+/* TSMPB "Homepage Footer" CSS Starts Here:- */
+.foot{
+    /* margin-top: -70px;
+    padding-top: 40px; */
+
+    background-image: url(https://keyword.vikaspedia.in/tsmpbmedia/Footer-Bg.png);
+    /* background-repeat: no-repeat; */
+}
+.footerBg {
+    background-color: #466f3f;
+    padding-bottom: 20px;
+    border-bottom: 7px solid #e1bf00;
+}
+.footerBg a {
+    color: #fff !important;
+    font-size: 13px;
+    display: block;
+    margin: 8px;
+}
+
+.borderLeft{
+    border-left: 2px solid #fff;
+}
+
+.verti{
+    height: 21px;
+    width: 10px;
+    border-left: 2px solid white;
+    /* margin-right: 10px; */
+    /* margin-left: 370px; */
+    /* margin-top: 25px; */
+}
+
+.ftlink{
+    color: white;
+}
+
+.fticns{
+    height: 17px;
+    width: 17px;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+.fticnsreg{
+    height: 17px;
+    width: 17px;
+    margin-right: 3px;
+    margin-left: -3px;
+}
+.footer{
+    margin-top: -70px;
+}
+
+
+
+
+
+
+
+
+/* TSMPB "InspectionPage" CSS Starts Here:- */
+.round1{
+    border-radius: 25px !important;
+    border: 1px solid !important;
+    -webkit-appearance: menulist !important;
+  }

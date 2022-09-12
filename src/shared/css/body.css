@@ -1,0 +1,170 @@
+@import url("./global.css");
+
+h4 {
+display: flex;
+flex-direction: row;
+}
+h4:before, h4:after{
+content: "";
+flex: 1 1;
+border-bottom: 1px solid #ced4da;
+margin: auto;
+}
+.headings{
+    font-weight: bold;
+}
+.subcontent{
+    text-align: center;
+}
+.qpm{
+    width: 129px;
+    height: 88px;
+    background: var(--imageURL_sprite05) -283px -218px;
+    /* background: url(../images/echarak_helpline_spritev8.png) -283px -218px; */
+    margin-left: 35px;
+}
+.cultivation{
+    width: 129px;
+    height: 88px;
+    background: var(--imageURL_sprite05) -734px -214px;
+    margin-left: 35px;
+}
+.plant{
+    width: 129px;
+    height: 88px;
+    background: var(--imageURL_sprite05) -515px -214px;
+    margin-left: 35px;
+}
+.post{
+    width: 129px;
+    height: 88px;
+    background: var(--imageURL_sprite05) -611px -215px;
+    margin-left: 21px;
+}
+.transport{
+    width: 129px;
+    height: 88px;
+    background: var(--imageURL_sprite05) -852px -231px;
+    margin-left: 35px;
+}
+.marketing{
+    width: 129px;
+    height: 88px;
+    background: var(--imageURL_sprite05) -396px -210px;
+    margin-left: 35px;
+}
+.regulation{
+    width: 129px;
+    height: 88px;
+    background: var(--imageURL_sprite05) -959px -216px;
+    margin-left: 35px;
+}
+.other{
+    width: 129px;
+    height: 88px;
+    background: var(--imageURL_spritev10) -215px -404px;
+    margin-left: 35px;
+}
+.catText{
+    text-align: center;
+}
+.queryText{
+    min-height: 105px !important;
+}
+.card{
+    /* height: 139px; */
+    height: 146px;
+    width: 203px;
+    margin-top: 15px;
+}
+.nav{
+    border: 1px solid #ced4da;
+    height: 40px;
+}
+.textIcon{
+    width: 43px;
+    height: 41px;
+    background: var(--imageURL_sprite05) -1129px -247px;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+.imageIcon{
+    width: 85px;
+    height: 41px;
+    background: var(--imageURL_sprite05) -1235px -250px;
+    margin-left: 9px;
+    margin-top: 2px;
+}
+.filePicker{
+    display: none;
+}
+.qpm_selected{
+    width: 129px;
+    height: 88px;
+    background: var(--imageURL_sprite05) -283px -348px;
+    margin-left: 35px;
+}
+.cultivation_selected{
+    width: 129px;
+    height: 88px;
+    background: var(--imageURL_sprite05) -734px -344px;
+    margin-left: 35px;
+}
+.plant_selected{
+    width: 129px;
+    height: 88px;
+    background: var(--imageURL_sprite05) -515px -344px;
+    margin-left: 35px;
+}
+.post_selected{
+    width: 129px;
+    height: 88px;
+    background: var(--imageURL_sprite05) -611px -345px;
+    margin-left: 21px;
+}
+.transport_selected{
+    width: 129px;
+    height: 88px;
+    background: var(--imageURL_sprite05) -852px -361px;
+    margin-left: 35px;
+}
+.marketing_selected{
+    width: 129px;
+    height: 88px;
+    background: var(--imageURL_sprite05) -396px -340px;
+    margin-left: 35px;
+}
+.regulation_selected{
+    width: 129px;
+    height: 88px;
+    background: var(--imageURL_sprite05) -959px -346px;
+    margin-left: 35px;
+}
+.other_selected{
+    width: 129px;
+    height: 88px;
+    background: var(--imageURL_spritev10) -326px -404px;
+    margin-left: 35px;
+}
+
+.catText_selected{
+    text-align: center;
+    color: #59a320;
+}
+.catText_other_selected{
+    text-align: center;
+    color: #59a320;
+    margin-left: -15px;
+}
+.formAlign{
+    margin-top: 19px;
+}
+.catAlign{
+    margin-left: 14px;
+}
+.imgName{
+    color: #59a320;
+}
+.form_disabled_label{
+    color: grey !important;
+}

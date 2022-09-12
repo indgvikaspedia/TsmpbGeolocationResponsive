@@ -1,0 +1,181 @@
+.footer {
+    /* height: 500px; */
+    /* background-color:rgb(2, 85, 2); */
+    /* background-image: url(https://keyword.vikaspedia.in/tsmpbmedia/Footer-Bg.png); */
+    /* background-color: green; */
+    position: relative;
+    left: 0;
+    bottom: 0;
+    /* background-repeat: no-repeat; */
+    /* background-color:#3e3e3e;
+    position:sticky;
+    width:100%;
+    left:0px;
+    bottom:0px;
+    right:0px; */
+} 
+address{ 
+    /* font-size:100%;
+    margin:0px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size:18; */
+    color:#ffff;
+}
+.Webheader{
+    min-height: 700px;
+}
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+  .footer li {
+    color: white;
+    
+}
+.footer li a{
+      color: white;
+}
+  u{
+      text-decoration-line: underline;
+      text-decoration-style: solid;
+      text-decoration-color:#5aa320;
+      width: 30%;
+  }
+  h4{
+      font-family:'Roboto';
+      font-weight: 700;
+      font-size: 20;
+      /* color: #ffff; */
+  }
+  .appimage{
+      margin-left: 28px;
+      height:150px;
+      width:50%;
+  }
+  .androidappimage{
+      margin-left:28px;
+      height:40;
+      width:50%;
+  }
+  .iappimage{
+      margin-left: 28px;
+      height:150px;
+      width:50%;
+      
+  }
+  .Text{
+       margin-left: 35px;
+       font-family:'Roboto';
+       font-size:20;
+       font-weight:600;
+       color:#ffff;
+   }
+   .iText{
+       margin-left: 48px;
+       font-family:'Roboto';
+       font-size:20;
+       font-weight:600;
+       color:#ffff;
+       }
+   .iappleimage{
+       margin-left: 28px;
+       height:40;
+       width:50%;
+   }
+   .LinkText{
+       font-family:'Roboto';
+       font-size:18;
+       font-weight:500;
+       color:#ffff;
+       padding: 6px;
+       margin-left: 12px;
+   }
+   .echarakimage{
+       display: block !important;
+       width:400;
+       left:0;
+       top:0;
+
+   }
+
+   .ftlink{
+        color: white;
+    }
+
+    .fticns{
+        height: 17px;
+        width: 17px;
+        margin-right: 3px;
+        margin-left: 3px;
+    }
+
+    .fticnsreg{
+        height: 17px;
+        width: 17px;
+        /* margin-right: 3px; */
+        margin-left: -3px;
+    }
+
+   .AboutUsIcon{
+   background: var(--imageURL_spritev9) -63px -330px;
+   position:absolute;
+   color:#fff;
+   height:18px;
+   width:38px;
+   margin-left:-7px;
+   }
+   .DisclaimerIcon{
+       background:var(--imageURL_spritev9) -63px -360px;
+       position: absolute;
+       color:#fff;
+       height:18px;
+       width:38px;
+       top:106px;
+       margin-left:-7px;
+   }
+   .FMarketPriceIcon{
+       background: var(--imageURL_spritev9) -63px -390px;
+       position:absolute;
+       color:#fff;
+       height:18px;
+       width:38px;
+       margin-left:-7px;
+
+   }
+   .FMobileAppIcon{
+       background:var(--imageURL_spritev9) -63px -423px;
+       position: absolute;
+       color:#fff;
+       height:18px;
+       width:38px;
+       margin-left:-6px;
+       top:154px;
+   }
+   .FooterFAQIcon{
+       background: var(--imageURL_spritev9) -63px -455px;
+       position: absolute;
+       color:#fff;
+       height:18px;
+       width:38px;
+       margin-left:-7px;
+       top:179px;
+   }
+   .FooterFeedbackIcon{
+       background:var(--imageURL_spritev9) -63px -485px;
+       position: absolute;
+       color:#fff;
+       height: 18px;
+       width:38px;
+       margin-left:-7px;
+       top:204px;
+   }
+
+  
+
+
+ 
+
+

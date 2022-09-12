@@ -1,0 +1,24 @@
+#tabcolorx{
+   
+    font-size: 25px;
+    color: #012401;
+    justify-content: space-evenly;
+    padding: 10px;
+    border-bottom: 8px solid #556b2f;
+    display: flex;
+}
+
+
+#tabcolory{
+       
+    font-size: 25px;
+    color: #012401;
+    justify-content: space-evenly;
+    padding: 10px;
+    display: flex;    
+}
+/* .move{
+    margin-left: 30%;
+    
+} */
+

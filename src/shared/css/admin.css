@@ -1,0 +1,40 @@
+.PendingQueries{
+    font-size:16px;
+
+}
+/* .assign{
+    width: 41px;
+    height: 45px;
+    background: url(./../images/echarak_helpline_sprite05_v1.png) -1458px -193px;
+    position: absolute;
+    top: 62px;
+    left: 30px;
+}
+.deassign{
+    width: 41px;
+    height: 45px;
+    background: url(./../images/echarak_helpline_sprite05_v1.png) -1458px -123px;
+    position: absolute;
+    top: 62px;
+    left: 30px;
+}
+.tabSpace{
+    margin-right: 19px;
+} */
+
+
+.ExpertText{
+    font-size:16px;
+    color:black;
+}
+.active {
+    font-weight: bold;
+    color: #59a320  !important;
+    background: linear-gradient(to top, green 4px, transparent 0);
+    font-size:22px;
+          /* color: green; */
+}
+.deactive{
+    color: #495057;
+    font-size:20px;
+}
