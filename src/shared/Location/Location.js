@@ -287,9 +287,9 @@ function settingState(event){
 }
   return(
     <div>
-      <Card className="card">
-        <Row style={{ marginRight: 0, marginLeft: 0 }}>
-          <Col xs="6" style={{ paddingLeft: 0 }}>
+      <div className="container-fluid">
+        <Row style={{ marginRight: 0, marginLeft: 0,justifyContent:'center' }}>
+          <Col lg={6} md={12} style={{ paddingLeft: 0 }}>
             <Row style={{ marginRight: 0, marginLeft: 0}}>
               <div id="searchinline">
                 <Button id="btnline" ><img src={search_icon} alt="search" style={{height:50,width:50,marginBottom:6}}/></Button>
@@ -305,11 +305,11 @@ function settingState(event){
                 {/* <Button id={st.btnline}><img src={mike}  alt="search" style={{height:50,width:50,marginBottom:5}}/></Button>           */}
               </div>
 
-              <h5 style={{ marginTop: 20, marginLeft: 250, marginBottom: 5, color: 'green' }}>{screenLanguage[lgnId].select_state_and_ownership}</h5>
+              <h5 style={{ marginTop: 20, marginBottom: 5, color: 'green',width: '100%',textAlign: 'center' }}>{screenLanguage[lgnId].select_state_and_ownership}</h5>
 
-              <div id="rowgap">
+              <div id="rowgap" style={{display:'flex',width:'100%',justifyContent:'center'}}>
 
-                <Dropdown isOpen={dropdownOpen} toggle={toggle} >
+                <Dropdown className='pr-3' isOpen={dropdownOpen} toggle={toggle} >
                   <DropdownToggle caret id="dptoggle" style={{width:200}}>
                     <img src={location} alt="" style={{height:25,width:25,marginRight:5}}/>
                     {screenLanguage[lgnId].state}
@@ -322,7 +322,7 @@ function settingState(event){
                     </DropdownItem>
                   </DropdownMenu></Dropdown>
 
-                <Dropdown isOpen={dropdownOpen1} toggle={toggle1}>
+                <Dropdown className='pl-3' isOpen={dropdownOpen1} toggle={toggle1}>
                   <DropdownToggle caret id="dptoggle2" style={{width:200}}>
                     {/* {ownership} */}
                     <img src={collection_centers} alt="" style={{height:25,width:25,marginRight:5}}/>
@@ -348,10 +348,10 @@ function settingState(event){
                 {/* {screenLanguage[lgnId].more_filters}</Button> */}
               </div>
               
-              <h5 style={{marginTop:20, marginLeft:250, marginBottom: 5, color: 'green'}}>{screenLanguage[lgnId].select_storage_location_type}</h5>
+              <h5 style={{marginTop:20, marginBottom: 5, color: 'green',width:'100%',textAlign:'center'}}>{screenLanguage[lgnId].select_storage_location_type}</h5>
               
               {/* {visibility && */}
-              <div id="rowgap2">
+              <div id="rowgap2" className='flex-wrap' style={{justifyContent:'center',width:'100%'}}>
                 {/* <Button outline color="success" id={st.btnstyleY} onClick={()=>setFilter("Nursery") }><img src='http://localhost/tsmpb/Nursery_blackN.png' id="iconstyle" alt="Select nursery" /><p>{screenLanguage[lgnId].nursery}</p></Button> */}
                 <Button outline color="success" id="btnstyleY" onClick={()=>setFilter("Nursery") }><img src={Nursery_blackN} id="iconstyle" alt="Select nursery" /><p>{screenLanguage[lgnId].nursery}</p></Button>
                 <Button outline color="success" id="btnstyle2" onClick={()=>setFilter("Storage Godown & Drying Yards") }><img src={warehouse} id="iconstyle" alt="Storage Warehouse" /><p>{screenLanguage[lgnId].storage_godown}<br/>{screenLanguage[lgnId].drying_yards}</p></Button>
@@ -405,7 +405,7 @@ function settingState(event){
           </Col>
 
 
-          <Col xs="6" style={{ paddingRight: 0 }}>
+          <Col lg={6} md={12} style={{ paddingRight: 0 }} id="customMap">
             {/* {displayRes != null && displayRes != undefined && displayRes != "undefined" ? 
             displayRes.map((result,_index)=>{
               let latvalue = result.lat;
@@ -441,7 +441,7 @@ function settingState(event){
 
           </Col>
         </Row>
-      </Card>
+      </div>
     </div>
 
 
